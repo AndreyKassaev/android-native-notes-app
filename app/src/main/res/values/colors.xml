@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_1">#22223B</color>
+    <color name="color_2">#4A4E69</color>
+    <color name="color_3">#9A8C98</color>
+    <color name="color_4">#C9ADA7</color>
+    <color name="color_5">#F2E9E4</color>
+    <color name="color_appbar">#70C9ADA7</color>
+    <color name="color_appbar_appName">#709A8C98</color>
+    <color name="color_status_bar">#009A8C98</color>
+    <color name="color_single_listed_note_leftBar">#664A4E69</color>
+    <color name="color_single_listed_note_background">#709A8C98</color>
+</resources>

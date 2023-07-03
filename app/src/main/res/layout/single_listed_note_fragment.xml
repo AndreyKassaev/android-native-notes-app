@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_listed_note"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    >
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="@color/color_single_listed_note_leftBar"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_single_listed_note_background">
+
+        <TextView
+            android:id="@+id/single_listed_note_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Header"
+            android:textColor="@color/color_1"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/single_listed_note_textBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_2"
+            android:text="Text body, Hello how are you? This string must end with three dots"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginStart="4dp"
+            />
+        <TextView
+            android:id="@+id/single_listed_note_dateCreated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_3"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="2dp"
+            android:text="23.06.2023"
+            />
+    </LinearLayout>
+    
+
+</LinearLayout>

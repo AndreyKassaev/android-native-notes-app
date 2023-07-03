@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Блокнот</string>
+    <string name="toast_saved">Сохранено</string>
+    <string name="toast_deleted">Удалено</string>
+</resources>
